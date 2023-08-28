@@ -6,6 +6,9 @@ import './index.css'
 
 class BlogItemDetails extends Component {
   componentDidMount() {
+   this.blogsData()
+  }
+  blogsData=()=>{
     console.log(this.props)
   }
 
